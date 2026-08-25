@@ -1,0 +1,57 @@
+{
+  "brand": {
+    "name": "Asha Foundation"
+  },
+  "meta": {
+    "title": "Asha Foundation — Compassionate Mental Health Care",
+    "titleTemplate": "%s — Asha Foundation",
+    "description": "Asha Foundation offers compassionate counseling, community support, and mental wellness programs for individuals and families."
+  },
+  "nav": {
+    "links": [
+      { "href": "/", "label": "Home" },
+      { "href": "/about", "label": "About" },
+      { "href": "/services", "label": "Services" },
+      { "href": "/gallery", "label": "Gallery" },
+      { "href": "/contact", "label": "Contact" }
+    ],
+    "ctaLabel": "Get Support",
+    "ctaHref": "/contact"
+  },
+  "contactInfo": {
+    "address": "2 No. Rail Gate, Habra, West Bengal 743263",
+    "phone": "+91 73191 40288",
+    "email": "ashafoundationhabra@gmail.com",
+    "hours": "Mon–Sat, 9am–7pm · Helpline 24/7"
+  },
+  "footer": {
+    "tagline": "Compassionate mental health care and community support for everyone who needs it.",
+    "quickLinksHeading": "Quick Links",
+    "quickLinks": [
+      { "href": "/about", "label": "About Us" },
+      { "href": "/services", "label": "Our Services" },
+      { "href": "/gallery", "label": "Gallery" },
+      { "href": "/contact", "label": "Contact" }
+    ],
+    "contactHeading": "Contact",
+    "newsletter": {
+      "heading": "Stay Updated",
+      "description": "Get monthly updates on our programs and community events.",
+      "placeholder": "Your email",
+      "buttonLabel": "Join"
+    },
+    "socialLinks": [
+      { "icon": "facebook", "href": "#", "label": "Facebook" },
+      { "icon": "instagram", "href": "#", "label": "Instagram" },
+      { "icon": "x", "href": "#", "label": "X (Twitter)" }
+    ],
+    "copyright": "© {year} Asha Foundation. All rights reserved. Dummy content for demonstration purposes."
+  },
+  "ctaBanner": {
+    "heading": "Reaching out is the bravest first step.",
+    "description": "Whether you need someone to talk to today or you're exploring support for a loved one, our team is here — with no judgment, only care.",
+    "buttonLabel": "Reach Out Today",
+    "buttonHref": "/contact",
+    "imageAlt": "Friends with arms around each other's shoulders"
+  }
+}

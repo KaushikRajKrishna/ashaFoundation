@@ -1,0 +1,77 @@
+{
+  "header": {
+    "eyebrow": "About Us",
+    "title": "Our story of care",
+    "subtitle": "Fifteen years of walking alongside individuals and families on their mental health journeys."
+  },
+  "story": {
+    "eyebrow": "Our Story",
+    "title": "Why Asha Foundation exists",
+    "imageAlt": "Hands planting a small seedling in soil",
+    "paragraphs": [
+      "Asha Foundation began in 2011 with a single counseling room and a simple belief: that everyone deserves a safe space to talk about their mental health, free of stigma or judgment.",
+      "Since then, we've grown into a full community of counselors, volunteers, and support groups dedicated to making mental health care accessible to everyone — regardless of background or circumstance.",
+      "Today, we run individual and family therapy, group counseling, a 24/7 crisis helpline, and community workshops that reach thousands of people every year."
+    ]
+  },
+  "missionVision": [
+    {
+      "tone": "maroon",
+      "title": "Our Mission",
+      "description": "To provide compassionate, accessible mental health care and build a community where healing is possible for everyone."
+    },
+    {
+      "tone": "sage",
+      "title": "Our Vision",
+      "description": "A world where mental health is treated with the same care, urgency, and openness as physical health."
+    }
+  ],
+  "values": {
+    "eyebrow": "What Guides Us",
+    "title": "Our core values",
+    "imageAlt": "Stacked balancing rocks on a seashore",
+    "items": [
+      { "title": "Compassion", "description": "We meet every person with warmth, empathy, and zero judgment." },
+      { "title": "Confidentiality", "description": "Your story is safe with us, always." },
+      { "title": "Community", "description": "Healing is stronger when we walk the path together." },
+      { "title": "Empowerment", "description": "We help you build the tools to thrive on your own terms." }
+    ]
+  },
+  "milestones": {
+    "eyebrow": "Our Milestones",
+    "title": "Fifteen years of growth",
+    "imageAlt": "A path winding through a quiet forest",
+    "items": [
+      { "year": "2011", "description": "Asha Foundation founded with a single counseling room and a big vision." },
+      { "year": "2015", "description": "Launched our first community outreach and awareness program." },
+      { "year": "2019", "description": "Opened our Teen Support Program, reaching hundreds of young people." },
+      { "year": "2024", "description": "Crossed 1,200+ lives touched through therapy and support groups." }
+    ]
+  },
+  "team": {
+    "eyebrow": "Meet the Team",
+    "title": "The people behind Asha Foundation",
+    "members": [
+      {
+        "name": "Dr. Meera Anand",
+        "role": "Founder & Clinical Director",
+        "bio": "Clinical psychologist with 15+ years of experience in community mental health."
+      },
+      {
+        "name": "Rohan Kapoor",
+        "role": "Lead Counselor",
+        "bio": "Specializes in cognitive behavioral therapy and adolescent counseling."
+      },
+      {
+        "name": "Priya Nair",
+        "role": "Family Therapist",
+        "bio": "Focuses on family systems therapy and conflict resolution."
+      },
+      {
+        "name": "Aditya Rao",
+        "role": "Outreach Coordinator",
+        "bio": "Leads community workshops and awareness programs across the region."
+      }
+    ]
+  }
+}

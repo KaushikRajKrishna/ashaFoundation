@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #fbf5ee;
+  --color-blush: #f3e4e3;
+  --color-ink: #2e2a28;
+  --color-ink-soft: #6b615c;
+
+  --color-maroon: #7a3548;
+  --color-maroon-deep: #5a2536;
+  --color-maroon-soft: #f3e4e3;
+
+  --color-sage: #6e8f5c;
+  --color-sage-deep: #516b41;
+  --color-sage-soft: #e8eee3;
+
+  --color-dusk: #4f7391;
+  --color-dusk-deep: #365269;
+  --color-dusk-soft: #e6edf1;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-blush: var(--color-blush);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+
+  --color-maroon: var(--color-maroon);
+  --color-maroon-deep: var(--color-maroon-deep);
+  --color-maroon-soft: var(--color-maroon-soft);
+
+  --color-sage: var(--color-sage);
+  --color-sage-deep: var(--color-sage-deep);
+  --color-sage-soft: var(--color-sage-soft);
+
+  --color-dusk: var(--color-dusk);
+  --color-dusk-deep: var(--color-dusk-deep);
+  --color-dusk-soft: var(--color-dusk-soft);
+
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-fraunces);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+::selection {
+  background: var(--color-maroon-soft);
+  color: var(--color-maroon-deep);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

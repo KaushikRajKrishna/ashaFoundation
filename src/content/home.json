@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "captions": [
+      "You are not alone in this journey.",
+      "Healing begins with a single conversation.",
+      "Compassionate care, one step at a time.",
+      "Hope is always within reach.",
+      "Growth happens in a safe space."
+    ]
+  },
+  "mission": {
+    "eyebrow": "Our Mission",
+    "text": "To walk alongside every individual and family facing mental health challenges — offering compassionate care, judgment-free support, and a community where healing feels possible."
+  },
+  "approach": {
+    "eyebrow": "Our Approach",
+    "title": "A space to slow down and breathe",
+    "paragraphs": [
+      "Every session starts with listening, not diagnosing. We meet you exactly where you are, without rushing toward a label.",
+      "Our counselors blend evidence-based therapy with mindfulness practices, so care feels human — never clinical."
+    ],
+    "imageAlt": "A person sitting calmly in meditation at sunset"
+  },
+  "servicesPreview": {
+    "eyebrow": "How We Help",
+    "title": "Care built around you",
+    "items": [
+      {
+        "title": "Individual Therapy",
+        "description": "Personalized one-on-one counseling sessions.",
+        "icon": "heart-handshake"
+      },
+      {
+        "title": "Group Counseling",
+        "description": "Shared healing through guided group sessions.",
+        "icon": "users"
+      },
+      {
+        "title": "Crisis Helpline",
+        "description": "24/7 confidential phone support.",
+        "icon": "phone-call"
+      },
+      {
+        "title": "Family Therapy",
+        "description": "Rebuilding connection and communication.",
+        "icon": "home"
+      }
+    ],
+    "linkLabel": "View all services",
+    "linkHref": "/services"
+  },
+  "statsBackgroundAlt": "Silhouette of a person on a rock surrounded by calm water",
+  "stats": [
+    { "value": "1,200+", "label": "Lives Touched" },
+    { "value": "15", "label": "Years of Care" },
+    { "value": "40+", "label": "Support Groups" },
+    { "value": "24/7", "label": "Crisis Helpline" }
+  ],
+  "testimonials": {
+    "eyebrow": "Voices of Hope",
+    "title": "Stories from our community",
+    "items": [
+      {
+        "quote": "Asha Foundation gave me a place to speak without fear. For the first time in years, I felt heard.",
+        "attribution": "Anonymous, Individual Therapy client"
+      },
+      {
+        "quote": "The group sessions changed how I see my own struggles. I'm not alone, and that has made all the difference.",
+        "attribution": "Anonymous, Support Group member"
+      },
+      {
+        "quote": "Our whole family healed together thanks to the patience and care of the therapists here.",
+        "attribution": "Anonymous, Family Therapy client"
+      }
+    ]
+  }
+}

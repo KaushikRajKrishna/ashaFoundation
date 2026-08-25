@@ -1,0 +1,28 @@
+{
+  "header": {
+    "eyebrow": "Contact Us",
+    "title": "We're here to listen",
+    "subtitle": "Reach out by phone, email, or the form below — every message is treated with care and confidentiality."
+  },
+  "info": [
+    { "icon": "map-pin", "label": "Visit Us", "value": "2 No. Rail Gate, Habra, West Bengal 743263" },
+    { "icon": "phone", "label": "Call Us", "value": "+91 73191 40288" },
+    { "icon": "mail", "label": "Email Us", "value": "ashafoundationhabra@gmail.com" },
+    { "icon": "clock", "label": "Hours", "value": "Mon–Sat, 9am–7pm · Helpline 24/7" }
+  ],
+  "mapPlaceholder": "Illustrative map placeholder",
+  "form": {
+    "fields": {
+      "name": { "label": "Name", "placeholder": "Your name" },
+      "email": { "label": "Email", "placeholder": "you@example.com" },
+      "subject": { "label": "Subject", "placeholder": "How can we help?" },
+      "message": { "label": "Message", "placeholder": "Share as much or as little as you'd like..." }
+    },
+    "submitLabel": "Send Message",
+    "success": {
+      "heading": "Message sent",
+      "description": "Thank you for reaching out. This is a demo form — no message was actually delivered, but a team member would normally respond within one business day.",
+      "resetLabel": "Send another message"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "header": {
+    "eyebrow": "Gallery",
+    "title": "Moments of connection",
+    "subtitle": "A look inside our programs, workshops, and community gatherings."
+  },
+  "images": [
+    { "title": "Quiet Morning", "description": "A calm start to the day at our wellness center." },
+    { "title": "Circle of Support", "description": "Peer support group session in progress." },
+    { "title": "Gentle Waves", "description": "Mindfulness and breathing workshop." },
+    { "title": "Rooted & Growing", "description": "Community garden therapy program." },
+    { "title": "Shared Light", "description": "Volunteers and staff at our annual open house." },
+    { "title": "Breathing Space", "description": "Our quiet reflection room, open to all visitors." },
+    { "title": "New Beginnings", "description": "Welcoming new members to the Asha family." },
+    { "title": "Steady Hands", "description": "One-on-one counseling in a safe, private setting." }
+  ]
+}
