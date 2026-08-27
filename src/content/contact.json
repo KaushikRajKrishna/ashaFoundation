@@ -10,7 +10,8 @@
     { "icon": "mail", "label": "Email Us", "value": "ashafoundationhabra@gmail.com" },
     { "icon": "clock", "label": "Hours", "value": "Mon–Sat, 9am–7pm · Helpline 24/7" }
   ],
-  "mapPlaceholder": "Illustrative map placeholder",
+  "mapEmbedSrc": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3246.1552110560247!2d88.64262297530833!3d22.83724107930412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDUwJzE0LjEiTiA4OMKwMzgnNDIuNyJF!5e1!3m2!1sen!2sin!4v1787721821171!5m2!1sen!2sin",
+  "mapTitle": "Map showing the Asha Foundation location in Habra, West Bengal",
   "form": {
     "fields": {
       "name": { "label": "Name", "placeholder": "Your name" },
@@ -19,10 +20,16 @@
       "message": { "label": "Message", "placeholder": "Share as much or as little as you'd like..." }
     },
     "submitLabel": "Send Message",
+    "submittingLabel": "Sending...",
     "success": {
       "heading": "Message sent",
-      "description": "Thank you for reaching out. This is a demo form — no message was actually delivered, but a team member would normally respond within one business day.",
+      "description": "Thank you for reaching out. A team member will respond within one business day.",
       "resetLabel": "Send another message"
+    },
+    "error": {
+      "heading": "Something went wrong",
+      "description": "We couldn't send your message right now. Please try again, or reach us directly by phone or email.",
+      "retryLabel": "Try again"
     }
   }
 }

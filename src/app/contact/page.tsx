@@ -18,7 +18,7 @@ const ICONS = {
 };
 
 export default function ContactPage() {
-  const { header, info, mapPlaceholder } = contact;
+  const { header, info, mapEmbedSrc, mapTitle } = contact;
 
   return (
     <>
@@ -43,10 +43,14 @@ export default function ContactPage() {
             })}
 
             <Reveal delay={0.3} className="overflow-hidden rounded-2xl ring-1 ring-ink/5">
-              <div className="flex h-48 flex-col items-center justify-center gap-2 bg-dusk-soft text-dusk-deep">
-                <MapPin size={28} />
-                <span className="text-sm font-medium">{mapPlaceholder}</span>
-              </div>
+              <iframe
+                src={mapEmbedSrc}
+                title={mapTitle}
+                className="h-64 w-full border-0 sm:h-80"
+                loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
             </Reveal>
           </div>
 

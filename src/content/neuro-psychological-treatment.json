@@ -1,0 +1,71 @@
+{
+  "header": {
+    "eyebrow": "Specialized Care",
+    "title": "Neuro-Psychological Treatment",
+    "subtitle": "Comprehensive assessment and therapy for cognitive, behavioral, and emotional challenges linked to brain-based conditions."
+  },
+  "imageAlt": "A calm, quiet room set up for focused one-on-one therapy",
+  "overview": {
+    "eyebrow": "Understanding Neuro-Psychological Care",
+    "title": "Care that connects the brain and behavior",
+    "paragraphs": [
+      "Neuro-psychological treatment addresses how brain function affects memory, attention, learning, mood, and behavior — often following an injury, developmental condition, or age-related change.",
+      "Our clinicians combine structured cognitive testing with therapy, so treatment is grounded in a clear picture of your strengths and challenges.",
+      "We work closely with neurologists, psychiatrists, and schools where needed, so care stays coordinated across every part of your treatment."
+    ]
+  },
+  "offerings": {
+    "title": "What our program includes",
+    "items": [
+      {
+        "title": "Neuropsychological Assessment",
+        "description": "Standardized testing of memory, attention, and executive function.",
+        "icon": "brain"
+      },
+      {
+        "title": "Cognitive Rehabilitation Therapy",
+        "description": "Structured exercises to rebuild and strengthen cognitive skills.",
+        "icon": "puzzle"
+      },
+      {
+        "title": "Behavioral Intervention Plans",
+        "description": "Practical strategies for managing behavioral and emotional changes.",
+        "icon": "clipboard-list"
+      },
+      {
+        "title": "ADHD & Learning Support",
+        "description": "Assessment and coaching for attention and learning difficulties.",
+        "icon": "school"
+      },
+      {
+        "title": "Caregiver Guidance & Training",
+        "description": "Practical tools for family members supporting day-to-day care.",
+        "icon": "users"
+      },
+      {
+        "title": "Coordination with Specialists",
+        "description": "Working alongside neurologists and psychiatrists for unified care.",
+        "icon": "stethoscope"
+      }
+    ]
+  },
+  "whoItsFor": {
+    "title": "Who this program is for",
+    "items": [
+      "Individuals with memory, attention, or concentration difficulties",
+      "Children with developmental or learning concerns",
+      "People recovering from brain injury, stroke, or concussion",
+      "Families noticing behavioral changes linked to a neurological condition"
+    ]
+  },
+  "process": {
+    "eyebrow": "Getting Started",
+    "title": "How treatment works",
+    "steps": [
+      { "title": "Initial Consultation", "description": "A detailed conversation about history, concerns, and goals." },
+      { "title": "Cognitive Testing", "description": "Standardized assessments to map strengths and challenges." },
+      { "title": "Personalized Rehab Plan", "description": "A therapy plan tailored to your assessment results." },
+      { "title": "Ongoing Progress Reviews", "description": "Regular check-ins to track progress and adjust the plan." }
+    ]
+  }
+}

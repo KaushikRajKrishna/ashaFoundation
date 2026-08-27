@@ -43,7 +43,7 @@ export default function HeroCarousel() {
 
   return (
     <section
-      className="relative h-[78vh] min-h-[420px] w-full overflow-hidden bg-ink"
+      className="relative h-[52vh] min-h-[340px] max-h-[480px] w-full overflow-hidden bg-ink sm:h-[78vh] sm:max-h-none sm:min-h-[420px]"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       aria-roledescription="carousel"

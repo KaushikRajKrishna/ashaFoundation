@@ -32,10 +32,19 @@ function XIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
+function YoutubeIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <path d="M23.498 6.186a2.994 2.994 0 0 0-2.106-2.116C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.392.525A2.994 2.994 0 0 0 .502 6.186 31.32 31.32 0 0 0 0 12a31.32 31.32 0 0 0 .502 5.814 2.994 2.994 0 0 0 2.106 2.116c1.887.525 9.392.525 9.392.525s7.505 0 9.392-.525a2.994 2.994 0 0 0 2.106-2.116A31.32 31.32 0 0 0 24 12a31.32 31.32 0 0 0-.502-5.814ZM9.545 15.568V8.432L15.818 12l-6.273 3.568Z" />
+    </svg>
+  );
+}
+
 const SOCIAL_ICONS = {
   facebook: FacebookIcon,
   instagram: InstagramIcon,
   x: XIcon,
+  youtube: YoutubeIcon,
 };
 
 export default function Footer() {
@@ -58,6 +67,8 @@ export default function Footer() {
                   key={social.icon}
                   href={social.href}
                   aria-label={social.label}
+                  target={social.target}
+                  rel={social.target === "_blank" ? "noopener noreferrer" : undefined}
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-cream text-maroon transition-colors hover:bg-maroon hover:text-cream"
                 >
                   <Icon width={16} height={16} />

@@ -46,8 +46,10 @@
         "icon": "home"
       }
     ],
-    "linkLabel": "View all services",
-    "linkHref": "/services"
+    "specializedLinks": [
+      { "href": "/services/de-addiction-treatment", "label": "De-Addiction Treatment" },
+      { "href": "/services/neuro-psychological-treatment", "label": "Neuro-Psychological Treatment" }
+    ]
   },
   "statsBackgroundAlt": "Silhouette of a person on a rock surrounded by calm water",
   "stats": [

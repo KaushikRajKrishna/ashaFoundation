@@ -11,7 +11,13 @@
     "links": [
       { "href": "/", "label": "Home" },
       { "href": "/about", "label": "About" },
-      { "href": "/services", "label": "Services" },
+      {
+        "label": "Services",
+        "children": [
+          { "href": "/services/de-addiction-treatment", "label": "De-Addiction Treatment" },
+          { "href": "/services/neuro-psychological-treatment", "label": "Neuro-Psychological Treatment" }
+        ]
+      },
       { "href": "/gallery", "label": "Gallery" },
       { "href": "/contact", "label": "Contact" }
     ],
@@ -29,7 +35,8 @@
     "quickLinksHeading": "Quick Links",
     "quickLinks": [
       { "href": "/about", "label": "About Us" },
-      { "href": "/services", "label": "Our Services" },
+      { "href": "/services/de-addiction-treatment", "label": "De-Addiction Treatment" },
+      { "href": "/services/neuro-psychological-treatment", "label": "Neuro-Psychological Treatment" },
       { "href": "/gallery", "label": "Gallery" },
       { "href": "/contact", "label": "Contact" }
     ],
@@ -41,11 +48,10 @@
       "buttonLabel": "Join"
     },
     "socialLinks": [
-      { "icon": "facebook", "href": "#", "label": "Facebook" },
-      { "icon": "instagram", "href": "#", "label": "Instagram" },
-      { "icon": "x", "href": "#", "label": "X (Twitter)" }
+      { "icon": "facebook", "href": "https://www.facebook.com/share/1BsUbVoAFL/", "label": "Facebook", "target": "_blank" },
+      { "icon": "youtube", "href": "https://youtube.com/@ashafoundation2246?si=dEu6FNdUZxL9qavT", "label": "YouTube", "target": "_blank" }
     ],
-    "copyright": "© {year} Asha Foundation. All rights reserved. Dummy content for demonstration purposes."
+    "copyright": "© {year} Asha Foundation. All rights reserved."
   },
   "ctaBanner": {
     "heading": "Reaching out is the bravest first step.",

@@ -20,6 +20,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Contact form email delivery
+
+The Contact page form sends email via [Web3Forms](https://web3forms.com) — no backend/server of your own required, works on a fully static Vercel deploy. Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY` (see that file for how to get a free key). When deploying, add the same variable in your Vercel project's Settings → Environment Variables.
+
+Without that key set, the form will show its error state instead of sending — see `src/components/contact/ContactForm.tsx`.
+
+## Site content
+
+Nearly all page copy — headings, nav labels, captions, contact details — lives in JSON files under `src/content/`, not hardcoded in components. See `src/content/README.md` for what each file controls.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

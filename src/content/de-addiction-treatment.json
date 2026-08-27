@@ -1,0 +1,71 @@
+{
+  "header": {
+    "eyebrow": "Specialized Care",
+    "title": "De-Addiction Treatment",
+    "subtitle": "Structured, compassionate support to help you or someone you love break free from substance dependence and rebuild a healthier life."
+  },
+  "imageAlt": "Two people in a warm, supportive conversation outdoors",
+  "overview": {
+    "eyebrow": "Understanding Addiction",
+    "title": "You are not defined by your addiction",
+    "paragraphs": [
+      "Addiction is a treatable medical and psychological condition, not a moral failing. Our de-addiction program treats the whole person, not just the substance.",
+      "We combine medically supervised detoxification with counseling, peer support, and family involvement, so recovery is steady, safe, and sustainable.",
+      "Every treatment plan is confidential and built around your specific situation, whether you're seeking help for yourself or supporting someone you love."
+    ]
+  },
+  "offerings": {
+    "title": "What our program includes",
+    "items": [
+      {
+        "title": "Medical Detoxification",
+        "description": "Safe, supervised withdrawal management in a supportive clinical setting.",
+        "icon": "stethoscope"
+      },
+      {
+        "title": "Individual Counseling",
+        "description": "One-on-one sessions to address the root causes behind substance use.",
+        "icon": "heart-handshake"
+      },
+      {
+        "title": "Group Therapy & Peer Support",
+        "description": "Shared recovery experiences with others who understand the journey.",
+        "icon": "users"
+      },
+      {
+        "title": "Family Counseling",
+        "description": "Rebuilding trust and communication with loved ones affected by addiction.",
+        "icon": "home"
+      },
+      {
+        "title": "Relapse Prevention Planning",
+        "description": "Practical coping strategies and trigger management for long-term sobriety.",
+        "icon": "shield-check"
+      },
+      {
+        "title": "Aftercare & Follow-up",
+        "description": "Ongoing check-ins and support groups after the primary program ends.",
+        "icon": "phone-call"
+      }
+    ]
+  },
+  "whoItsFor": {
+    "title": "Who this program is for",
+    "items": [
+      "Individuals struggling with alcohol or drug dependence",
+      "People misusing prescription medication",
+      "Anyone whose substance use is affecting work, relationships, or health",
+      "Family members seeking guidance on how to support a loved one"
+    ]
+  },
+  "process": {
+    "eyebrow": "Getting Started",
+    "title": "How treatment works",
+    "steps": [
+      { "title": "Confidential Assessment", "description": "A private conversation to understand your history and needs." },
+      { "title": "Personalized Treatment Plan", "description": "A detox and therapy plan built around your circumstances." },
+      { "title": "Therapy & Skill-Building", "description": "Individual and group sessions to build lasting coping skills." },
+      { "title": "Ongoing Recovery Support", "description": "Continued care and community support after treatment ends." }
+    ]
+  }
+}

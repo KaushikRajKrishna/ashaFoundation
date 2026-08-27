@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { HeartHandshake, Users, PhoneCall, Home as HomeIcon, ArrowRight } from "lucide-react";
+import { HeartHandshake, Users, PhoneCall, Home as HomeIcon } from "lucide-react";
 import SectionHeading from "@/components/shared/SectionHeading";
 import Reveal from "@/components/shared/Reveal";
 import home from "@/content/home.json";
@@ -36,13 +36,16 @@ export default function ServicesPreview() {
           })}
         </div>
 
-        <Reveal delay={0.2} className="mt-10 flex justify-center">
-          <Link
-            href={servicesPreview.linkHref}
-            className="inline-flex items-center gap-2 rounded-full border border-maroon px-6 py-2.5 text-sm font-semibold text-maroon transition-colors hover:bg-maroon hover:text-cream"
-          >
-            {servicesPreview.linkLabel} <ArrowRight size={16} />
-          </Link>
+        <Reveal delay={0.2} className="mt-10 flex flex-wrap justify-center gap-3">
+          {servicesPreview.specializedLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="inline-flex items-center gap-2 rounded-full border border-maroon px-6 py-2.5 text-sm font-semibold text-maroon transition-colors hover:bg-maroon hover:text-cream"
+            >
+              {link.label}
+            </Link>
+          ))}
         </Reveal>
       </div>
     </section>
