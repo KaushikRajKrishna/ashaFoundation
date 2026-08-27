@@ -7,7 +7,7 @@ export default function OurApproach() {
   const { approach } = home;
 
   return (
-    <section className="mx-auto max-w-6xl px-6 py-20">
+    <section className="mx-auto max-w-6xl px-6 py-14">
       <div className="grid items-center gap-12 lg:grid-cols-2">
         <Reveal>
           <ParallaxImage

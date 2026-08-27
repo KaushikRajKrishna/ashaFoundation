@@ -9,7 +9,7 @@ Edit a JSON file and reload the site — no component code needs to change.
 | File             | Powers                                                              |
 | ---------------- | -------------------------------------------------------------------- |
 | `site.json`       | Nav links, footer, brand name, shared contact info, shared CTA banner |
-| `home.json`       | Hero carousel captions, mission strip, services preview, stats, testimonials |
+| `home.json`       | Hero carousel captions, find-us band, mission strip, services preview, stats, testimonials |
 | `about.json`       | About page: story, mission/vision, values, milestones, team          |
 | `gallery.json`     | Gallery page: intro text + one caption per gallery image             |
 | `contact.json`     | Contact page: info cards, embedded Google Map, form labels + success/error text|
@@ -38,6 +38,12 @@ Edit a JSON file and reload the site — no component code needs to change.
   `README.md`'s "Contact form email delivery" section and `.env.example`) — it
   is not just a UI demo. `contact.json`'s `form.success`/`form.error` text is
   shown depending on whether that submission succeeds.
+- The Home page's "Find Us" band (`src/components/home/VisitUsBand.tsx`, just
+  below the hero) reuses `contact.json`'s `mapEmbedSrc`/`mapTitle` and
+  `site.json`'s `contactInfo.address` rather than duplicating them — only its
+  motivational line and button label live in `home.json`'s `visit` key.
+  Updating the map or address in one place updates both this band and the
+  Contact page.
 - There is no standalone `/services` overview page. "Services" in the nav
   (`site.json`'s `nav.links`) has no `href` of its own — it's a label-only
   trigger that only opens the dropdown (hover on desktop, tap on mobile) listing

@@ -5,7 +5,7 @@ import home from "@/content/home.json";
 
 export default function StatsBand() {
   return (
-    <section className="relative overflow-hidden py-20">
+    <section className="relative overflow-hidden py-16">
       <ParallaxImage src={hopeImg} alt={home.statsBackgroundAlt} className="absolute inset-0" strength={35} />
       <div className="absolute inset-0 bg-maroon-deep/80" />
 

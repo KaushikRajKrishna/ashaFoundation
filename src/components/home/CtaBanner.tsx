@@ -8,7 +8,7 @@ export default function CtaBanner() {
   const { ctaBanner } = site;
 
   return (
-    <section className="px-6 pb-20">
+    <section className="px-6 pb-14">
       <Reveal className="relative mx-auto flex max-w-6xl flex-col items-center gap-6 overflow-hidden rounded-3xl bg-gradient-to-br from-sage via-sage-deep to-dusk-deep px-8 py-16 text-center">
         <ParallaxImage
           src={connectionImg}

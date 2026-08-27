@@ -40,12 +40,25 @@ function YoutubeIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
+function WhatsAppIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.85.5 3.58 1.36 5.07L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.83 14.06c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.83-.12-.42-.14-.96-.31-1.65-.6-2.9-1.25-4.8-4.16-4.94-4.35-.14-.19-1.18-1.57-1.18-3s.74-2.13 1-2.42c.26-.29.58-.36.77-.36h.55c.18 0 .42-.03.65.5.24.55.8 1.9.87 2.04.07.14.11.31.02.5-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.28.29-.12.57.16.28.7 1.16 1.51 1.88 1.04.93 1.91 1.22 2.19 1.36.28.14.44.12.6-.07.16-.19.68-.79.86-1.06.18-.28.36-.23.6-.14.24.09 1.53.72 1.79.85.26.13.43.19.5.3.07.11.07.63-.17 1.31Z" />
+    </svg>
+  );
+}
+
 const SOCIAL_ICONS = {
   facebook: FacebookIcon,
   instagram: InstagramIcon,
   x: XIcon,
   youtube: YoutubeIcon,
+  whatsapp: WhatsAppIcon,
 };
+
+function telHref(displayNumber: string) {
+  return `tel:${displayNumber.replace(/[^\d+]/g, "")}`;
+}
 
 export default function Footer() {
   const { brand, footer, contactInfo } = site;
@@ -92,8 +105,15 @@ export default function Footer() {
           <span className="flex items-center gap-2 text-sm text-ink-soft">
             <MapPin size={16} className="shrink-0 text-maroon" /> {contactInfo.address}
           </span>
-          <span className="flex items-center gap-2 text-sm text-ink-soft">
-            <Phone size={16} className="shrink-0 text-maroon" /> {contactInfo.phone}
+          <span className="flex items-start gap-2 text-sm text-ink-soft">
+            <Phone size={16} className="mt-0.5 shrink-0 text-maroon" />
+            <span className="flex flex-col gap-0.5">
+              {contactInfo.phones.map((number) => (
+                <a key={number} href={telHref(number)} className="hover:text-maroon">
+                  {number}
+                </a>
+              ))}
+            </span>
           </span>
           <span className="flex items-center gap-2 text-sm text-ink-soft">
             <Mail size={16} className="shrink-0 text-maroon" /> {contactInfo.email}

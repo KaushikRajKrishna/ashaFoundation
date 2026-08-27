@@ -17,6 +17,10 @@ const ICONS = {
   clock: Clock,
 };
 
+function telHref(displayNumber: string) {
+  return `tel:${displayNumber.replace(/[^\d+]/g, "")}`;
+}
+
 export default function ContactPage() {
   const { header, info, mapEmbedSrc, mapTitle } = contact;
 
@@ -36,7 +40,17 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-xs font-semibold tracking-wide text-maroon uppercase">{item.label}</p>
-                    <p className="mt-1 text-ink-soft">{item.value}</p>
+                    {Array.isArray(item.value) ? (
+                      <div className="mt-1 flex flex-col gap-0.5">
+                        {item.value.map((number) => (
+                          <a key={number} href={telHref(number)} className="text-ink-soft hover:text-maroon">
+                            {number}
+                          </a>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="mt-1 text-ink-soft">{item.value}</p>
+                    )}
                   </div>
                 </Reveal>
               );

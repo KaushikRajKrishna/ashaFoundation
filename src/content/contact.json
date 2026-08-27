@@ -6,7 +6,7 @@
   },
   "info": [
     { "icon": "map-pin", "label": "Visit Us", "value": "2 No. Rail Gate, Habra, West Bengal 743263" },
-    { "icon": "phone", "label": "Call Us", "value": "+91 73191 40288" },
+    { "icon": "phone", "label": "Call Us", "value": ["+91 73191 40288", "+91 95644 28503", "+91 78727 17451"] },
     { "icon": "mail", "label": "Email Us", "value": "ashafoundationhabra@gmail.com" },
     { "icon": "clock", "label": "Hours", "value": "Mon–Sat, 9am–7pm · Helpline 24/7" }
   ],

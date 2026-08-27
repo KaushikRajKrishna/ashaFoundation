@@ -7,7 +7,7 @@ export default function Testimonials() {
   const { testimonials } = home;
 
   return (
-    <section className="py-20">
+    <section className="py-14">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow={testimonials.eyebrow} title={testimonials.title} />
 

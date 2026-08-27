@@ -15,7 +15,7 @@ export default function ServicesPreview() {
   const { servicesPreview } = home;
 
   return (
-    <section className="bg-blush/40 py-20">
+    <section className="bg-blush/40 py-14">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow={servicesPreview.eyebrow} title={servicesPreview.title} />
 
