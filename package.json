@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "node scripts/generate-image-manifests.mjs",
+    "predev": "node scripts/generate-image-manifests.mjs && node scripts/generate-blog-manifest.mjs",
     "dev": "next dev",
-    "prebuild": "node scripts/generate-image-manifests.mjs",
+    "prebuild": "node scripts/generate-image-manifests.mjs && node scripts/generate-blog-manifest.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate-image-manifests": "node scripts/generate-image-manifests.mjs"
+    "generate-image-manifests": "node scripts/generate-image-manifests.mjs",
+    "generate-blog-manifest": "node scripts/generate-blog-manifest.mjs"
   },
   "dependencies": {
     "framer-motion": "^13.1.1",

@@ -1,0 +1,10 @@
+{
+  "header": {
+    "eyebrow": "Insights & Stories",
+    "title": "From the Asha Foundation blog",
+    "subtitle": "Reflections on mental health, recovery, and community — written to inform, not to diagnose."
+  },
+  "emptyState": "No posts yet. Add a folder with a JSON file and a cover image to src/content/blogs to publish one.",
+  "backLabel": "Back to Blog",
+  "moreHeading": "More from the blog"
+}

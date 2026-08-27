@@ -15,6 +15,8 @@ Edit a JSON file and reload the site — no component code needs to change.
 | `contact.json`     | Contact page: info cards, embedded Google Map, form labels + success/error text|
 | `de-addiction-treatment.json` | Services → De-Addiction Treatment page (`/services/de-addiction-treatment`) |
 | `neuro-psychological-treatment.json` | Services → Neuro-Psychological Treatment page (`/services/neuro-psychological-treatment`) |
+| `blog.json`        | Blog page: header text, empty-state message, "back"/"more posts" labels |
+| `blogs/<folder>/*.json` | One blog post each — see "Adding a blog post" below |
 
 ## Notes
 
@@ -49,6 +51,17 @@ Edit a JSON file and reload the site — no component code needs to change.
   trigger that only opens the dropdown (hover on desktop, tap on mobile) listing
   its `children`. Clicking/tapping the "Services" label itself does nothing but
   toggle the dropdown; only the child links navigate anywhere.
+- **Adding a blog post**: create a new folder under `src/content/blogs/`
+  (any folder name — it becomes the post's URL, e.g. `src/content/blogs/my-post/`
+  → `/blog/my-post`). Inside it, add exactly two files: one `.json` file with
+  the post's fields (`title`, `excerpt`, `date`, `author`, `readTime`, `tags`,
+  `imageAlt`, and `content` — an array of paragraph strings, one per paragraph)
+  and one cover image (`.jpg`/`.jpeg`/`.png`/`.webp`/`.avif`, any filename).
+  Re-run `npm run dev` or `npm run build` — `scripts/generate-blog-manifest.mjs`
+  scans the folder automatically and regenerates `src/content/blogs/manifest.ts`
+  (auto-generated, don't hand-edit) with the image statically imported for
+  `next/image` optimization. Posts are sorted newest-`date`-first on `/blog`
+  automatically; no code changes or manual registration needed.
 - The two treatment sub-pages (`de-addiction-treatment.json`,
   `neuro-psychological-treatment.json`) share one layout component,
   `src/components/services/TreatmentProgramPage.tsx`. Both JSON files follow the

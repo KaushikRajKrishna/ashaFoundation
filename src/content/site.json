@@ -19,6 +19,7 @@
         ]
       },
       { "href": "/gallery", "label": "Gallery" },
+      { "href": "/blog", "label": "Blog" },
       { "href": "/contact", "label": "Contact" }
     ],
     "ctaLabel": "Get Support",
@@ -38,6 +39,7 @@
       { "href": "/services/de-addiction-treatment", "label": "De-Addiction Treatment" },
       { "href": "/services/neuro-psychological-treatment", "label": "Neuro-Psychological Treatment" },
       { "href": "/gallery", "label": "Gallery" },
+      { "href": "/blog", "label": "Blog" },
       { "href": "/contact", "label": "Contact" }
     ],
     "contactHeading": "Contact",
