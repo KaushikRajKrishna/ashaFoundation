@@ -1,5 +1,6 @@
 import { MapPin } from "lucide-react";
 import Reveal from "@/components/shared/Reveal";
+import MapLocationBadge from "@/components/shared/MapLocationBadge";
 import home from "@/content/home.json";
 import contact from "@/content/contact.json";
 import site from "@/content/site.json";
@@ -29,7 +30,10 @@ export default function VisitUsBand() {
           </a>
         </Reveal>
 
-        <Reveal delay={0.1} className="aspect-square overflow-hidden rounded-3xl ring-1 ring-ink/5 sm:aspect-[4/3]">
+        <Reveal
+          delay={0.1}
+          className="relative aspect-square overflow-hidden rounded-3xl ring-1 ring-ink/5 sm:aspect-[4/3]"
+        >
           <iframe
             src={mapEmbedSrc}
             title={mapTitle}
@@ -38,6 +42,7 @@ export default function VisitUsBand() {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           />
+          <MapLocationBadge />
         </Reveal>
       </div>
     </section>

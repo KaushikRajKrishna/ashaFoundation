@@ -71,7 +71,7 @@ export default function Footer() {
             <Image src={logo} alt={`${brand.name} logo`} className="h-10 w-10 object-contain" />
             <span className="font-display text-base font-semibold text-maroon-deep">{brand.name}</span>
           </Link>
-          <p className="max-w-xs text-sm text-ink-soft">{footer.tagline}</p>
+          <p className="max-w-xs text-sm font-medium text-ink-soft">{footer.tagline}</p>
           <div className="flex gap-3 pt-1">
             {footer.socialLinks.map((social) => {
               const Icon = SOCIAL_ICONS[social.icon as keyof typeof SOCIAL_ICONS];
@@ -94,7 +94,7 @@ export default function Footer() {
         <div className="flex flex-col gap-3">
           <h3 className="font-display text-sm font-semibold text-ink">{footer.quickLinksHeading}</h3>
           {footer.quickLinks.map((link) => (
-            <Link key={link.href} href={link.href} className="text-sm text-ink-soft hover:text-maroon">
+            <Link key={link.href} href={link.href} className="text-sm font-medium text-ink-soft hover:text-maroon">
               {link.label}
             </Link>
           ))}
@@ -102,27 +102,37 @@ export default function Footer() {
 
         <div className="flex flex-col gap-3">
           <h3 className="font-display text-sm font-semibold text-ink">{footer.contactHeading}</h3>
-          <span className="flex items-center gap-2 text-sm text-ink-soft">
+          <span className="flex items-center gap-2 text-sm font-medium text-ink-soft">
             <MapPin size={16} className="shrink-0 text-maroon" /> {contactInfo.address}
           </span>
-          <span className="flex items-start gap-2 text-sm text-ink-soft">
+          <span className="flex items-start gap-2 text-sm">
             <Phone size={16} className="mt-0.5 shrink-0 text-maroon" />
             <span className="flex flex-col gap-0.5">
               {contactInfo.phones.map((number) => (
-                <a key={number} href={telHref(number)} className="hover:text-maroon">
+                <a
+                  key={number}
+                  href={telHref(number)}
+                  className="w-fit font-medium text-maroon underline decoration-maroon/40 underline-offset-2 transition-colors hover:text-maroon-deep hover:decoration-maroon-deep"
+                >
                   {number}
                 </a>
               ))}
             </span>
           </span>
-          <span className="flex items-center gap-2 text-sm text-ink-soft">
-            <Mail size={16} className="shrink-0 text-maroon" /> {contactInfo.email}
+          <span className="flex items-center gap-2 text-sm">
+            <Mail size={16} className="shrink-0 text-maroon" />
+            <a
+              href={`mailto:${contactInfo.email}`}
+              className="font-medium text-maroon underline decoration-maroon/40 underline-offset-2 transition-colors hover:text-maroon-deep hover:decoration-maroon-deep"
+            >
+              {contactInfo.email}
+            </a>
           </span>
         </div>
 
         <div className="flex flex-col gap-3">
           <h3 className="font-display text-sm font-semibold text-ink">{footer.newsletter.heading}</h3>
-          <p className="text-sm text-ink-soft">{footer.newsletter.description}</p>
+          <p className="text-sm font-medium text-ink-soft">{footer.newsletter.description}</p>
           <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
             <input
               type="email"
@@ -140,7 +150,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-ink/5 py-5 text-center text-xs text-ink-soft">
+      <div className="border-t border-ink/5 py-5 text-center text-xs font-medium text-ink-soft">
         {footer.copyright.replace("{year}", String(new Date().getFullYear()))}
       </div>
     </footer>

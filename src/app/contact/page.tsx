@@ -3,6 +3,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import PageHeader from "@/components/shared/PageHeader";
 import ContactForm from "@/components/contact/ContactForm";
 import Reveal from "@/components/shared/Reveal";
+import MapLocationBadge from "@/components/shared/MapLocationBadge";
 import contact from "@/content/contact.json";
 
 export const metadata: Metadata = {
@@ -56,7 +57,7 @@ export default function ContactPage() {
               );
             })}
 
-            <Reveal delay={0.3} className="overflow-hidden rounded-2xl ring-1 ring-ink/5">
+            <Reveal delay={0.3} className="relative overflow-hidden rounded-2xl ring-1 ring-ink/5">
               <iframe
                 src={mapEmbedSrc}
                 title={mapTitle}
@@ -65,6 +66,7 @@ export default function ContactPage() {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               />
+              <MapLocationBadge />
             </Reveal>
           </div>
 
