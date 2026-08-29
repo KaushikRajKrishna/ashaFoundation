@@ -13,6 +13,12 @@
     "line": "Every journey toward healing starts with a single step — Asha Foundation is always open.",
     "buttonLabel": "Get Directions"
   },
+  "introBeforeMission": {
+    "text": [
+      "At Asha Foundation, we believe that every person deserves a safe space to be heard, understood, and supported.",
+      "Our compassionate team is here to help individuals and families take meaningful steps toward hope, healing, and a better tomorrow."
+    ]
+  },
   "mission": {
     "eyebrow": "Our Mission",
     "text": "To walk alongside every individual and family facing mental health challenges — offering compassionate care, judgment-free support, and a community where healing feels possible."
@@ -52,16 +58,34 @@
       }
     ],
     "specializedLinks": [
-      { "href": "/services/de-addiction-treatment", "label": "De-Addiction Treatment" },
-      { "href": "/services/neuro-psychological-treatment", "label": "Neuro-Psychological Treatment" }
+      {
+        "href": "/services/de-addiction-treatment",
+        "label": "De-Addiction Treatment"
+      },
+      {
+        "href": "/services/neuro-psychological-treatment",
+        "label": "Neuro-Psychological Treatment"
+      }
     ]
   },
   "statsBackgroundAlt": "Silhouette of a person on a rock surrounded by calm water",
   "stats": [
-    { "value": "1,200+", "label": "Lives Touched" },
-    { "value": "15", "label": "Years of Care" },
-    { "value": "40+", "label": "Support Groups" },
-    { "value": "24/7", "label": "Crisis Helpline" }
+    {
+      "value": "1,200+",
+      "label": "Lives Touched"
+    },
+    {
+      "value": "15",
+      "label": "Years of Care"
+    },
+    {
+      "value": "40+",
+      "label": "Support Groups"
+    },
+    {
+      "value": "24/7",
+      "label": "Crisis Helpline"
+    }
   ],
   "testimonials": {
     "eyebrow": "Voices of Hope",
