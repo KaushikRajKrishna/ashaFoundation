@@ -6,6 +6,11 @@ export default function MissionStrip() {
   return (
     <section className="mx-auto max-w-4xl px-6 py-12 text-center">
       <Reveal>
+        {mission.intro?.map((line) => (
+          <p key={line} className="text-sm text-ink/70">
+            {line}
+          </p>
+        ))}
         <span className="text-xs font-semibold tracking-[0.2em] text-maroon uppercase">{mission.eyebrow}</span>
         <p className="mt-4 font-display text-2xl leading-relaxed font-medium text-ink sm:text-3xl">
           {mission.text}

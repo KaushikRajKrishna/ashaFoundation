@@ -14,6 +14,10 @@
     "buttonLabel": "Get Directions"
   },
   "mission": {
+    "intro": [
+      "This is the first line of dummy content.",
+      "This is the second line of dummy content."
+    ],
     "eyebrow": "Our Mission",
     "text": "To walk alongside every individual and family facing mental health challenges — offering compassionate care, judgment-free support, and a community where healing feels possible."
   },
