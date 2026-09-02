@@ -115,7 +115,7 @@ export default function AboutPage() {
               delay={i * 0.08}
               className="flex flex-col items-center gap-3 rounded-2xl bg-blush/40 p-6 text-center"
             >
-              <MonogramAvatar name={member.name} index={i} />
+              <MonogramAvatar name={member.name} index={i} initials={member.initials} />
               <h3 className="font-display text-base font-semibold text-ink">{member.name}</h3>
               <span className="text-xs font-semibold text-maroon uppercase">{member.role}</span>
               <p className="text-sm text-ink-soft">{member.bio}</p>

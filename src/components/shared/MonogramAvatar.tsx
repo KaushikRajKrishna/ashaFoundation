@@ -10,14 +10,22 @@ function initials(name: string) {
     .toUpperCase();
 }
 
-export default function MonogramAvatar({ name, index = 0 }: { name: string; index?: number }) {
+export default function MonogramAvatar({
+  name,
+  index = 0,
+  initials: initialsOverride,
+}: {
+  name: string;
+  index?: number;
+  initials?: string;
+}) {
   const color = PALETTE[index % PALETTE.length];
   return (
     <div
       className={`flex h-16 w-16 items-center justify-center rounded-full ${color} font-display text-lg font-semibold text-cream shadow-sm`}
       aria-hidden="true"
     >
-      {initials(name)}
+      {initialsOverride || initials(name)}
     </div>
   );
 }

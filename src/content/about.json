@@ -53,24 +53,20 @@
     "title": "The people behind Asha Foundation",
     "members": [
       {
-        "name": "Dr. Meera Anand",
-        "role": "Founder & Clinical Director",
-        "bio": "Clinical psychologist with 15+ years of experience in community mental health."
+        "name": "Souvik Gupta",
+        "initials": "SG"
       },
       {
-        "name": "Rohan Kapoor",
-        "role": "Lead Counselor",
-        "bio": "Specializes in cognitive behavioral therapy and adolescent counseling."
+        "name": "Dr. Rajarshi Sarkar",
+        "initials": "RS"
       },
       {
-        "name": "Priya Nair",
-        "role": "Family Therapist",
-        "bio": "Focuses on family systems therapy and conflict resolution."
+        "name": "Dr. Abir Das",
+        "initials": "AD"
       },
       {
-        "name": "Aditya Rao",
-        "role": "Outreach Coordinator",
-        "bio": "Leads community workshops and awareness programs across the region."
+        "name": "Timir Baran Dey",
+        "initials": "TBD"
       }
     ]
   }
